@@ -1,0 +1,35 @@
+*{
+margin: 0;
+padding: 7;
+}
+body{
+    background: linear-gradient(to right, #0000FF, #FF0000, #00FF00);
+}
+.button{
+    width: 50;
+    height: 50;
+    font-size: 25;
+    margin: 2;
+    cursor: pointer;
+    background: silver;
+    color: white;
+    border: none;
+}
+.screen{
+    width: 275;
+    height: 50;
+    margin: 2;
+    font-size: 25;
+    padding: 5;
+    box-shadow: black;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+table{
+    margin: auto;
+    background-color: #222;
+}
